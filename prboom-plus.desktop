@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=PrBoom-Plus
+Comment=A version of classic 3D shoot-em-up game DOOM
+Comment[pl]=Wersja klasycznej strzelaniny 3D DOOM
+Exec=prboom-plus
+Icon=prboom-plus
+Terminal=false
+Type=Application
+Categories=Game;X-FPPGame;
+# vi: encoding=utf-8
