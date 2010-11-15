@@ -1,11 +1,11 @@
 Summary:	PrBoom-Plus - a modified PrBoom port
 Name:		prboom-plus
-Version:	2.5.0.7
+Version:	2.5.0.8
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications/Games
 Source0:	http://downloads.sourceforge.net/prboom-plus/%{name}-%{version}.tar.gz
-# Source0-md5:	d07c477664b6cb69e8c90d5aafca8aa4
+# Source0-md5:	68ec73075064876c6af83da4d628d461
 Source1:	%{name}.desktop
 Source2:	%{name}.png
 URL:		http://prboom-plus.sourceforge.net/
@@ -58,7 +58,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS NEWS README TODO doc/{*.txt,README*}
-%attr(755,root,root) %{_bindir}/*
+%attr(755,root,root) %{_bindir}/prboom-plus*
 %{_datadir}/games/doom
 %{_pixmapsdir}/%{name}.png
 %{_desktopdir}/%{name}.desktop
