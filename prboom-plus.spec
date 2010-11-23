@@ -1,11 +1,11 @@
 Summary:	PrBoom-Plus - a modified PrBoom port
 Name:		prboom-plus
-Version:	2.5.0.8
+Version:	2.5.0.8a
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications/Games
 Source0:	http://downloads.sourceforge.net/prboom-plus/%{name}-%{version}.tar.gz
-# Source0-md5:	68ec73075064876c6af83da4d628d461
+# Source0-md5:	caf135fb2f0fb1a6c91d006ec62f76e7
 Source1:	%{name}.desktop
 Source2:	%{name}.png
 URL:		http://prboom-plus.sourceforge.net/
